@@ -1,4 +1,35 @@
+/* universal css */
 * {
-    margin:0px;
+    margin: 0px;
     padding: 0px;
+}
+
+/* cover section css*/
+
+header {
+    background-color: rgba(229, 84, 115, 0.10);
+}
+
+.cover-section {
+    display: flex;
+    align-items: center;
+}
+
+/* left side cover */
+.left-side {
+    /* display: flex; */
+
+}
+
+.cover-title {
+    color: #272727;
+    font-family: Lato;
+    font-size: 80px;
+    font-weight: 800;
+}
+
+
+/* right side cover*/
+.cover-img {
+    width: 500px;
 }
