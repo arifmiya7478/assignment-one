@@ -76,7 +76,7 @@ header {
 
 /* main */
 /* Our Featured Flowers section start*/
-.featured-section {
+.featured-one {
     background-color: white;
 }
 
@@ -91,7 +91,7 @@ header {
     font-family: Lato;
     font-size: 40px;
     font-weight: 800;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .featured-description {
@@ -165,4 +165,5 @@ padding: 14px 45px 0px 45px;
 .featured-img-title {
     text-align: center;
     text-decoration: underline;
+    margin-top: 30px;
 }
