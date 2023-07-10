@@ -2,7 +2,9 @@
 * {
     margin: 0px;
     padding: 0px;
+    /* font-family: 'Lato', sans-serif; */
 }
+
 
 /* cover section css*/
 
@@ -26,6 +28,7 @@ header {
     font-family: Lato;
     font-size: 80px;
     font-weight: 800;
+    display: flex;
 }
 
 
