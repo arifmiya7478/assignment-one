@@ -15,6 +15,7 @@ header {
 .cover-section {
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 /* left side cover */
@@ -34,5 +35,6 @@ header {
 
 /* right side cover*/
 .cover-img {
-    width: 500px;
+    width: 450px;
+    height: auto;
 }
