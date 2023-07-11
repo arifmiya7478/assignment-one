@@ -206,10 +206,8 @@ section {
 #img-b {
 
     /* background: rgba(5, 151, 160, 0.15); */
-
-    width: 325px;
-
-    padding: 65px 15px 5px 15px;
+    width: 320px;
+    padding: 65px 10px 5px 10px;
 }
 
 #img-c {
@@ -297,6 +295,7 @@ section {
     text-align: center;
     font-size: 40px;
     font-weight: 800;
+    padding-bottom: 25px;
     margin-bottom: 10px;
 }
 .new-container{
