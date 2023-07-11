@@ -255,16 +255,17 @@ section {
 }
 
 /* hot deal section end */
+
+
+
 /* instagram section start */
 
-
-
-/* instagram section end */
 .insta-title {
     color: #272727;
     text-align: center;
     font-size: 40px;
     font-weight: 800;
+    margin-bottom: 10px;
 }
 
 .insta-description {
@@ -274,3 +275,16 @@ section {
     font-weight: 400;
     line-height: 30px;
 }
+/* insta-img section */
+
+.insta-img {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 40px 150px;
+}
+.img-insta {
+    width: 260px;
+}
+
+/* instagram section end */
