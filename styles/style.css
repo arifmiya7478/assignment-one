@@ -18,6 +18,7 @@
     font-weight: 400;
     padding: 13px 24px 13px;
 }
+
 .btn:hover {
     background-color: #c85e75;
     cursor: pointer;
@@ -62,10 +63,11 @@ nav>ul {
     font-size: 20px;
     margin-right: 45px;
 }
+
 .menu-list:hover {
     cursor: pointer;
     color: #E55473;
-    text-decoration: #E55473 underline ;
+    text-decoration: #E55473 underline;
 }
 
 #shop-now {
@@ -131,11 +133,7 @@ section {
 
 
 /* Our Featured Flowers section start*/
-.featured-section {
-    margin: 0px 150px;
-}
 
-/* featured one or first section start */
 .featured-one {
     background-color: white;
 }
@@ -168,6 +166,7 @@ section {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: 0px 150px;
 }
 
 .featured-img-one {
@@ -213,11 +212,8 @@ section {
 }
 
 #img-c {
-
     /* background: rgba(71, 125, 17, 0.15); */
-
     width: 250px;
-
     padding: 14px 45px 0px 45px;
 }
 
@@ -228,14 +224,52 @@ section {
     text-decoration: underline;
     margin-top: 30px;
 }
+
 .featured-img-title:hover {
     color: #E55473;
     cursor: pointer;
 }
 
-/* featured-one or first section end */
+/* info section start */
+.info-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 35px 150px 35px 150px;
+}
 
-/* featured-two or 2nd section start */
+.main-info-title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    padding-top: 20px;
+    margin-bottom: 10px;
+}
+
+.info-text {
+    max-width: 650px;
+}
+
+.info-title {
+    color: #272727;
+    font-size: 60px;
+    font-weight: 800;
+}
+.info-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 15px 0px;
+}
+
+#info-img {
+    width: 400px;
+    border-radius: 8px;
+    box-shadow: grey 0px 0px 20px;
+}
+
 
 .featured-two {
     display: flex;
@@ -243,7 +277,7 @@ section {
     justify-content: space-around;
     border-radius: 8px;
     background: rgba(39, 39, 39, 0.05);
-    margin-top: 120px;
+    margin: 120px 150px 0px;
     padding: 70px 150px 70px 150px;
 
 }
@@ -261,6 +295,8 @@ section {
 }
 
 /* Our Featured Flowers section end */
+
+
 /* Hot deals section start */
 
 .hot-container {
