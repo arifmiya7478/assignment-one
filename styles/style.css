@@ -21,18 +21,45 @@
 
 /* primary css end*/
 
-
-/* cover section css start*/
-
+/* nav section start */
 header {
     background-color: rgba(229, 84, 115, 0.10);
 }
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 150px;
+}
+
+.logo {
+    color: #E55473;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+nav>ul {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.menu-list {
+    list-style: none;
+    margin-right: 30px;
+}
+
+
+/* cover section css start*/
 
 .cover-section {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0px 90px 0px 110px;
+    margin: 0px 150px;
     padding-top: 30px;
 }
 
@@ -62,16 +89,13 @@ header {
     margin: 15px 0px;
 }
 
-/* left side cover end*/
 
-
-/* right side cover*/
 .right-side {
     display: flex;
 }
 
 .cover-img {
-    width: 500px;
+    width: 480px;
     height: auto;
 }
 
@@ -358,6 +382,7 @@ section {
     margin-top: 100px;
     padding: 110px 0px 100px;
 }
+
 .footer-textarea {
     /* margin: 0px 0px 15px; */
 }
@@ -382,4 +407,5 @@ section {
     font-size: 16px;
     font-weight: 400;
 }
+
 /* footer end */
