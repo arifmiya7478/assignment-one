@@ -275,16 +275,76 @@ section {
     font-weight: 400;
     line-height: 30px;
 }
+
 /* insta-img section */
 
 .insta-img {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    /* border-radius: ; */
     margin: 40px 150px;
 }
+
 .img-insta {
     width: 260px;
+    border-radius: 8px;
 }
 
 /* instagram section end */
+
+
+/* Get The Latest Deals section start */
+.latest-deal-container {
+    /* display: flex;
+    align-items: center;*/
+    text-align: center;
+    background-image: url('../images/latest.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 320px;
+    margin: 0px 150px;
+    border-radius: 8px;
+}
+
+.latest-text-area {
+    /* display: flex; */
+    /* margin-top: 100px; */
+    padding-top: 100px;
+    margin-bottom: 15px;
+}
+
+.latest-title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.latest-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 15px 0px;
+}
+
+.input-email {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 13px;
+    font-weight: 400;
+    border: none;
+    border-radius: 8px;
+    background: #FFF;
+    width: 470px;
+    height: 44px;
+    padding-left: 30px;
+
+}
+
+#subscribe-btn {
+    font-size: 15px;
+}
+
+/* Get The Latest Deals section end */
