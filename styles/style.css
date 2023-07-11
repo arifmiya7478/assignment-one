@@ -136,6 +136,7 @@ section {
 
 .featured-one {
     background-color: white;
+    margin-bottom: 40px;
 }
 
 .featured-text {
@@ -231,6 +232,13 @@ section {
 }
 
 /* info section start */
+.info-extra-margin{
+    background-color: rgba(229, 84, 115, 0.10);
+    border-radius: 8px;
+    margin-top: 60px;
+}
+
+
 .info-container {
     display: flex;
     align-items: center;
@@ -256,6 +264,7 @@ section {
     font-size: 60px;
     font-weight: 800;
 }
+
 .info-description {
     color: rgba(39, 39, 39, 0.60);
     font-size: 18px;
@@ -268,6 +277,17 @@ section {
     width: 400px;
     border-radius: 8px;
     box-shadow: grey 0px 0px 20px;
+}
+
+#info-img-one {
+    width: 400px;
+    border-radius: 8px;
+    box-shadow: #ffc4c4 0px 0px 20px;
+}
+#info-img-two {
+    width: 400px;
+    border-radius: 8px;
+    box-shadow: #786a6a 0px 0px 20px;
 }
 
 
