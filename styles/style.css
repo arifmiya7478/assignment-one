@@ -30,13 +30,17 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0px 150px;
+    padding: 0px 150px;
+    /* background-color: #dcabb5; */
+    border-bottom: 5px solid #E55473;
+
 }
 
 .logo {
     color: #E55473;
-    font-size: 48px;
+    font-size: 50px;
     font-weight: 800;
+    padding: 10px;
 }
 
 nav>ul {
@@ -49,7 +53,13 @@ nav>ul {
 
 .menu-list {
     list-style: none;
-    margin-right: 30px;
+    margin-right: 45px;
+}
+
+#shop-now {
+    font-size: 20px;
+    margin-right: 0px;
+
 }
 
 
@@ -75,7 +85,6 @@ nav>ul {
 
 .cover-title {
     color: #272727;
-    font-family: Lato;
     font-size: 60px;
     font-weight: 800;
     display: flex;
