@@ -18,6 +18,10 @@
     font-weight: 400;
     padding: 13px 24px 13px;
 }
+.btn:hover {
+    background-color: #c85e75;
+    cursor: pointer;
+}
 
 /* primary css end*/
 
@@ -42,6 +46,7 @@ nav {
     font-weight: 800;
     padding: 10px;
     padding-left: 0px;
+    cursor: pointer;
 }
 
 nav>ul {
@@ -54,10 +59,17 @@ nav>ul {
 
 .menu-list {
     list-style: none;
+    font-size: 20px;
     margin-right: 45px;
+}
+.menu-list:hover {
+    cursor: pointer;
+    color: #E55473;
+    text-decoration: #E55473 underline ;
 }
 
 #shop-now {
+    list-style: none;
     font-size: 20px;
     margin-right: 0px;
 
@@ -215,6 +227,10 @@ section {
     text-align: center;
     text-decoration: underline;
     margin-top: 30px;
+}
+.featured-img-title:hover {
+    color: #E55473;
+    cursor: pointer;
 }
 
 /* featured-one or first section end */
@@ -400,6 +416,7 @@ section {
 .footer-title {
     font-size: 45px;
     font-weight: 800;
+    cursor: pointer;
 }
 
 .footer-description {
