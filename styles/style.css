@@ -41,6 +41,7 @@ nav {
     font-size: 50px;
     font-weight: 800;
     padding: 10px;
+    padding-left: 0px;
 }
 
 nav>ul {
